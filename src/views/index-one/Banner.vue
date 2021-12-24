@@ -45,56 +45,92 @@
                         </div>
                     </div>
                 </div>
-                <div class=" site-form col-md-5 col-lg-5">
-                    <h3 class="top">Get an estimate in seconds</h3>
-                     <div class="row">
-    <div class="col-6 sub-heading">
-     <h6>Date of birth</h6>
-    </div>
-    <div class="col-6 sub-heading">
-      <h6>Postcode</h6>
-    </div>
-    </div>
+                <div class=" site-form col-md-6 col-lg-6">
+
+                    <div class="  main1">
+                      <h2> Cotización con cuenta de Uber <br> (recomendado) </h2>
+                      <div class="row row1">
+                            <div class="col-sm-4">
+                               <img
+                                        src="img/uberlogo.png"
+                                        alt="icon image"
+                                        class="img-fluid"
+                                    />
+                            </div>
+                            <div class="col-sm-8">
+                                <form>
+                                     <div class="form-group">
+                                          <label for="exampleInputPassword1">ID del conductor</label>
+                                          <input type="text" class="input_use"  placeholder="" v-model="driver_id">
+                                    </div>
+                                    <button class="form-button" type="button" v-on:click="get_driver()">  <a href="#" type="button">Cotizer</a> </button>
+                                   
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container main2">
+                        <h2> Cotización manual </h2>
+                        <p>pore favor ingresa los datos de tu vehiculo</p>
+                        
+                             <div class="container">
+                                    <div class="row">
+                                      <div class="col-sm">
 
 
-                    <span>
-                        <form>
-  <div class="form-row">
-    
-    <div class="col-2">
-      <input type="text" class="form-control" placeholder="City">
-    </div>
-    <div class="col-2">
-      <input type="text" class="form-control" placeholder="State">
-    </div>
-    <div class="col-2">
-      <input type="text" class="form-control" placeholder="Zip">
-    </div>
-    <div class="col-6">
-      <input type="text" class="form-control" placeholder="Zip">
-    </div>
-  </div>
-</form>
+                                    <label for="exampleInputPassword1">Afio</label>
+                                    <input type="text" class="input_use"  placeholder="" size="" maxlength="5">
 
+                                          
+                                      
 
+                                      </div>
+                                      <div class="col-sm">
+                                         <label for="exampleInputPassword1">Marca</label>
+                                         <input type="text" class="input_use"  placeholder="" size="0" maxlength="5">
 
-                    </span>
+                                      </div>
+                                      <div class="col-sm">
+                                         
+                                          <label for="exampleInputPassword1">Modelo</label>
+                                          <input type="text" class="input_use"  placeholder="" size="5" maxlength="15">
 
+                                      </div>
+                                    </div>
+                              </div>
 
-                     <div class="row">
-    <div class="col-12 second-put">
-    <h6>Enter your car’s registration number</h6>
-     <input type="text" class="form-control" placeholder="Zip">
-    </div> </div>
-    
-     <div class="row">
-    <div class="col-12 ">
-          <button class="btn">Get my estimate</button>
-    </div> </div>
-  <div class="row">
-    <div class="col-12">
-       <p class="para"> <a href="">By continuing you are agreeing to our Privacy Policy. </a> </p>
-    </div> </div>
+                              
+
+                             <div class="container secondory">
+                                 <div class="row">
+                                            <div class="col-sm">
+                                               <label for="exampleInputPassword1">Modelo</label>
+                                               <input type="text" class="input_use"  placeholder="" size="5" maxlength="15">
+                                                  
+                                            </div>
+                                            <div class="col-sm second-1">
+                                             
+                                               <div> ¿Estacionamiento privado? 
+                                               </div> 
+                                                   <div class="radio">
+                                                       <label for=""> Si  <input type="radio"></label>
+                                                        <label for=""> No  <input type="radio"></label>
+                                                     
+                                                      
+                                                   </div>
+                                             
+
+                                          </div>
+                                 </div>
+                               </div>  
+
+                               <div class="container">
+                                   <button class="btn-last"><a href=""> Siguiente </a></button>
+                                   </div>      
+
+                    </div>
+                    
 
                    
                     
@@ -128,6 +164,8 @@ export default {
     data: function () {
         return {
             showModal: false,
+            driver_id: "",
+            counter: 0,
         };
     },
     methods: {
@@ -135,6 +173,38 @@ export default {
             e.preventDefault();
             this.showModal = true;
         },
+        get_driver: async function() {
+            const axios = require('axios')
+            axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
+
+            axios.get('https://www.palenca.com/uber/get-user/' + this.driver_id, {
+                headers: { 
+                    'x-api-key': 'sandbox_5ad4b782-387d-4fc8-b037-64c58696b2ab', 
+                    'Content-Type': 'application/json',
+                }
+            }).then(res => {
+                console.log(res);
+            }).catch(err => {
+                console.log(err.response);
+            });
+
+            // const config = {
+            //     method: 'get',
+            //     url: 'https://www.palenca.com/uber/get-user/' + this.driver_id,
+            //     headers: { 
+            //         'x-api-key': 'sandbox_5ad4b782-387d-4fc8-b037-64c58696b2ab', 
+            //         'Content-Type': 'application/json'
+            //     }
+            // }
+            
+            // try {
+            //     const { response } = await axios(config)
+            //     console.log(response);
+            //     console.log(JSON.stringify(response.data))
+            // } catch (error) {
+            //     console.log(error)
+            // }
+        }
     },
 };
 </script>

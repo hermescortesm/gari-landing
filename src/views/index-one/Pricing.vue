@@ -165,7 +165,7 @@
 </template>
 
 <script>
-import Accordian from "../../components/Accordian";
+// import Accordian from "../../components/Accordian";
 export default {
     name: "Pricing",
     isGray: {
@@ -177,7 +177,7 @@ export default {
         default: false,
     },
     components: {
-        Accordian,
+        // Accordian,
     },
     data: function () {
         return {
