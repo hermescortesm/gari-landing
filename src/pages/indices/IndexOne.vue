@@ -12,9 +12,9 @@
             <screenshots />
             <team :is-gray="true" />
             <latestNews />
-            <contact :is-gray="true" />
             <clients />
-            <subscribe />
+            <!-- <subscribe /> -->
+            <contact :is-gray="true" />
             <site-footer />
         </div>
     </div>
@@ -32,9 +32,9 @@ import Testimonial from "../../views/commons/Testimonial";
 import Screenshots from "../../views/commons/Screenshots";
 import Team from "../../views/commons/Team";
 import LatestNews from "../../views/commons/LatestNews";
-import Contact from "../../views/commons/Contact";
 import Clients from "../../views/commons/Clients";
-import Subscribe from "../../views/commons/Subscribe";
+// import Subscribe from "../../views/commons/Subscribe";
+import Contact from "../../views/commons/Contact";
 import SiteFooter from "../../views/commons/SiteFooter";
 
 export default {
@@ -53,7 +53,7 @@ export default {
         LatestNews,
         Contact,
         Clients,
-        Subscribe,
+        // Subscribe,
         SiteFooter,
     },
 };

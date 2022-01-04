@@ -128,9 +128,9 @@
                             <div class="col-sm-12 mt-3">
                                 <button
                                     type="submit"
-                                    class="btn solid-btn disabled"
+                                    class="btn-last"
                                     id="btnContactUs"
-                                    style="pointer-events: all; cursor: pointer"
+                                    style="pointer-events: all; cursor: pointer;color: white;"
                                 >
                                     Send Message
                                 </button>

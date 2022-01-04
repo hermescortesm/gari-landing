@@ -11,11 +11,7 @@
                             >
 
                                 <div class="mr-3 icon-box">
-                                    <img
-                                        src="img/image-icon-1.png"
-                                        alt="icon image"
-                                        class="img-fluid"
-                                    />
+                                    <img src="https://img.icons8.com/color/48/000000/quote--v2.png" style="margin-left: -6px;margin-top: -3px;"/>
                                 </div>
                                 <p class="mb-0">
                                     Solo regístrate en Gari con tu cuenta de Uber o bien llena tu información manualmente y tendrás tu cotización en minutos
@@ -26,11 +22,7 @@
                             <h5>Recibe tu póliza de manera inmediata</h5>
                             <div class="icon-box-wrap mb-2">
                                 <div class="mr-3 icon-box">
-                                    <img
-                                        src="img/image-icon-2.png"
-                                        alt="icon image"
-                                        class="img-fluid"
-                                    />
+                                    <img src="https://img.icons8.com/color/48/000000/quote--v2.png" style="margin-left: -6px;margin-top: -3px;"/>
                                 </div>
                                 <p class="mb-0">
                                     Si decides sacar tu póliza con Gari, la recibirás en tu correo el mismo día y tu coche y tu estarán cubiertos a partir de ese momento
@@ -43,11 +35,7 @@
 
                             <div class="icon-box-wrap mb-2">
                                 <div class="mr-3 icon-box">
-                                    <img
-                                        src="img/image-icon-3.png"
-                                        alt="icon image"
-                                        class="img-fluid"
-                                    />
+                                    <img src="https://img.icons8.com/color/48/000000/quote--v2.png" style="margin-left: -6px;margin-top: -3px;"/>
                                 </div>
                                 <p class="mb-0">
                                     No te preocupes, si por alguna razón decides cancelar tu póliza lo hacemos cuando tu lo quieras y te devolvemos la parte proporcional de la prima que no se utilizó

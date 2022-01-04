@@ -22,12 +22,14 @@
                         >
                             <div class="pt-4"><h5>Básico</h5></div>
                             <p>Seguro con el mejor precio</p>
-                            <div class="pricing-img mt-4">
-                                <img
-                                    src="img/standard.svg"
-                                    alt="pricing img"
+                            <div class="pricing-img">
+                                <img 
+                                    src="https://drive.google.com/uc?export=view&id=1eP2otFawKkwbpEmSybpeKQwkfMa0LzRS"
+                                    width="120"
+                                    alt="asas"
                                     class="img-fluid"
                                 />
+
                             </div>
                             <div
                                 class="card-header py-4 border-0 pricing-header"
@@ -39,14 +41,14 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <p>Deducibles</p>
+                                <p class="font-weight-bold">Deducibles</p>
                                 <ul
                                     class="list-unstyled text-sm mb-4 pricing-feature-list"
                                 >
                                     <li>Daños materiales 15% (VC)</li>
                                     <li>Robo total 15% (VC)</li>
                                 </ul>
-                                <p>Sumas aseguradas</p>
+                                <p class="font-weight-bold">Sumas aseguradas</p>
                                 <ul
                                     class="list-unstyled text-sm mb-4 pricing-feature-list"
                                 >
@@ -61,9 +63,10 @@
                         <div class="card text-center single-pricing-pack">
                             <div class="pt-4"><h5>Premium</h5></div>
                             <div class="pricing-img mt-4">
-                                <img
-                                    src="img/unlimited.svg"
-                                    alt="pricing img"
+                                <img 
+                                    src="https://drive.google.com/uc?export=view&id=1IrqwhcNwSfPWNMxGZgNtgvjmB31iDjBl"
+                                    width="120"
+                                    alt="asas"
                                     class="img-fluid"
                                 />
                             </div>
@@ -77,14 +80,14 @@
                                 </div>
                             </div>
                                                         <div class="card-body">
-                                <p>Deducibles</p>
+                                <p class="font-weight-bold">Deducibles</p>
                                 <ul
                                     class="list-unstyled text-sm mb-4 pricing-feature-list"
                                 >
                                     <li>Daños materiales 15% (VC)</li>
                                     <li>Robo total 15% (VC)</li>
                                 </ul>
-                                <p>Sumas aseguradas</p>
+                                <p class="font-weight-bold">Sumas aseguradas</p>
                                 <ul
                                     class="list-unstyled text-sm mb-4 pricing-feature-list"
                                 >

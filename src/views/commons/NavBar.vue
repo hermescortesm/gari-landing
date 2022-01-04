@@ -14,16 +14,14 @@
         >
             <div class="container">
                 <a class="navbar-brand" href="/"
-                    ><img
-                        :src="
-                            coloredLogo
-                                ? 'img/logo-color-1x.png'
-                                : 'img/logo-white-1x.png'
-                        "
+                    >
+                    <img 
+                         src="https://drive.google.com/uc?export=view&id=1yKAcF4MMqaqpSuVOt0emTXvPjzXUj7O3"
                         width="120"
-                        alt="logo"
+                        alt="asas"
                         class="img-fluid"
-                /></a>
+                    />
+                </a>
 
                 <button
                     class="navbar-toggler"

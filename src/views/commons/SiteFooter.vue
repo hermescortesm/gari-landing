@@ -5,11 +5,11 @@
                 <div class="row justify-content-between">
                     <div class="col-lg-3 mb-3 mb-lg-0">
                         <div class="footer-nav-wrap text-white">
-                            <img
-                                src="img/logo-white-1x.png"
-                                alt="footer logo"
-                                class="img-fluid mb-3"
+                            <img 
+                                src="https://drive.google.com/uc?export=view&id=1yKAcF4MMqaqpSuVOt0emTXvPjzXUj7O3"
                                 width="120"
+                                alt="asas"
+                                class="img-fluid"
                             />
                             <p>
                                 Gari es una empresa de tecnología y analytics enfocada en seguros. Diseñamos y distribuimos productos de auto.
@@ -106,16 +106,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="footer-nav-wrap text-white">
-                            <h5 class="mb-3 text-white">Location</h5>
-                            <img
-                                src="img/map.png"
-                                alt="location map"
-                                class="img-fluid"
-                            />
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 <template>
     <section class="hero-section pt-100 background-img banner-1-bg">
+            
         <div class="container">
             <div class="row align-items-center justify-content-between py-5">
                 <div class="col-md-7 col-lg-6">
@@ -15,10 +16,6 @@
                             <li>. Protección sin importar si estas en la plataforma o uso personal</li>
                             <li>. Simple de comprar y usar</li>
                         </ul>
-
-                        
-
-                        
                     </div>
                 </div>
                 <div class=" site-form col-md-6 col-lg-6">
@@ -36,7 +33,11 @@
                             <div class="col-sm-8">
                                 <form>
                                      <div class="form-group">
-                                          <label for="exampleInputPassword1">ID del conductor</label>
+                                          <label for="exampleInputPassword1">Correo electrónico</label>
+                                          <input type="text" class="input_use"  placeholder="" v-model="driver_id">
+                                    </div>
+                                     <div class="form-group">
+                                          <label for="exampleInputPassword1">Contraseña</label>
                                           <input type="text" class="input_use"  placeholder="" v-model="driver_id">
                                     </div>
                                     <button class="form-button" type="button" v-on:click="get_driver()">  <a href="#" type="button">Cotizer</a> </button>
