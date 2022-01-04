@@ -4,16 +4,14 @@
         class="client-section ptb-100"
         v-bind:class="isGray ? 'gray-light-bg' : ''"
     >
+
         <div class="container">
             
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="section-heading text-center mb-5">
-                        <h2>Trusted by companies</h2>
                         <p class="lead">
-                            Rapidiously morph transparent internal or "organic"
-                            sources whereas resource sucking e-business.
-                            Conveniently innovate compelling internal.
+                            Nuestros seguros están respaldados por una de las mejores aseguradoras de México y han sido aprobados por la Comisión Nacional de Seguros y Fianzas
                         </p>
                     </div>
                 </div>
@@ -87,6 +85,10 @@
                 </div>
             </div>
            
+            <p class="lead text-center mt-5">
+                Tenemos una alianza con Seguros El Águila. Ellos nos ayudan a darte el mejor servicio posible en caso de que tengas un siniestro. Nos apoyamos en su red de más de XXX ajustadores en la república y trabajamos con más de XXX talleres y agencias.
+
+            </p>
         </div>
     
 
@@ -105,38 +107,51 @@
                 </div>
                 <div class="col-md-7">
                     <div class="feature-contents section-heading">
-                        <h2>
-                            Share your photos with <br />
-                            friends easily
-                        </h2>
-                        <p>
-                            Objectively deliver professional value with diverse
-                            web-readiness. Collaboratively transition wireless
-                            customer service without goal-oriented catalysts for
-                            change. Collaboratively.
-                        </p>
-                        <p>
-                            Uniquely simplify sustainable applications whereas
-                            adaptive schemas. Competently brand performance
-                            based content and.
-                        </p>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Collapsible Group Item #1
+                                    </button>
+                                </h2>
+                                </div>
 
-                        <ul class="list-inline mt-5">
-                            <li class="list-inline-item">
-                              
-                            </li>
-                            &nbsp;
-                            <li class="list-inline-item">
-                                
-                            </li>
-                            &nbsp;
-                            <li class="list-inline-item">
-                               
-                            &nbsp;
-                            <li class="list-inline-item">
-                                
-                            </li>
-                        </ul>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Collapsible Group Item #2
+                                    </button>
+                                </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Some placeholder content for the second accordion panel. This panel is hidden by default.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Collapsible Group Item #3
+                                    </button>
+                                </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+                                </div>
+                                </div>
+                            </div>
+                            </div>
                     </div>
                 </div>
             </div>

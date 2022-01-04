@@ -25,24 +25,22 @@
                 </div>
                 <div class="col-md-5">
                     <div class="section-heading">
-                        <h3>Contact with us</h3>
+                        <h3>¡Contáctanos!</h3>
                         <p>
-                            It's very easy to get in touch with us. Just use the
-                            contact form or pay us a visit for a coffee at the
-                            office. Dynamically innovate competitive technology
-                            after an expanded array of leadership.
+                            Es muy fácil entrar en contacto con nosotros. Solo llena esta forma y te atenderemos de inmediato.
+
                         </p>
                     </div>
                     <div class="footer-address">
-                        <h6><strong>Head Office</strong></h6>
-                        <p>121 King St, Melbourne VIC 3000, Australia</p>
+                        <h6><strong>Oficina Gari:</strong></h6>
+                        <p>Bosque de Ciruelos 186 P11, Bosques de las Lomas, Miguel Hidalgo, CP 11700, CDMX</p>
                         <ul>
-                            <li><span>Phone: +61 2 8376 6284</span></li>
+                            <li><span>Teléfono: +5215534622248</span></li>
                             <li>
                                 <span
-                                    >Email :
-                                    <a href="mailto:hello@yourdomain.com"
-                                        >hello@yourdomain.com</a
+                                    >E-mail :
+                                    <a href="mailto:contacto@gari.mx"
+                                        >contacto@gari.mx</a
                                     ></span
                                 >
                             </li>

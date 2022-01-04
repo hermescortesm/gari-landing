@@ -12,8 +12,7 @@
                                 >Our Pricing Package</span
                             >
                             <h2>
-                                Afforadble Pricing and Packages <br />
-                                choose your best one
+                               
                             </h2>
                             <p class="lead">
                                 Monotonectally grow strategic process

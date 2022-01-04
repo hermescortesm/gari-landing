@@ -12,9 +12,7 @@
                                 width="120"
                             />
                             <p>
-                                Holisticly empower premium architectures without
-                                value-added ideas. Seamlessly evolve
-                                cross-platform experiences.
+                                Gari es una empresa de tecnología y analytics enfocada en seguros. Diseñamos y distribuimos productos de auto.
                             </p>
 
                             <div class="social-list-wrap">
@@ -78,23 +76,27 @@
                     </div>
                     <div class="col-lg-3 ml-auto mb-4 mb-lg-0">
                         <div class="footer-nav-wrap text-white">
-                            <h5 class="mb-3 text-white">Support</h5>
+                            <h5 class="mb-3 text-white">Forma</h5>
                             <ul class="list-unstyled support-list">
                                 <li class="mb-2 d-flex align-items-center">
                                     <span class="ti-location-pin mr-2"></span>
-                                    121 King Melbourne
-                                    <br />Australia 3000
+                                    Bosque de Ciruelos 186, Bosque de las Lomas, Miguel Hidalgo, CDMX,  CP 11700
+
                                 </li>
                                 <li class="mb-2 d-flex align-items-center">
                                     <span class="ti-mobile mr-2"></span>
-                                    <a href="tel:+61283766284">
-                                        +61 2 8376 6284</a
+                                    <a href="tel:XXX-XXX-XXXX">
+                                        XXX-XXX-XXXX</a
                                     >
                                 </li>
                                 <li class="mb-2 d-flex align-items-center">
                                     <span class="ti-email mr-2"></span
-                                    ><a href="mailto:mail@example.com">
-                                        mail@example.com</a
+                                    ><a href="mailto:www.gari.mx
+
+">
+                                        www.gari.mx
+
+</a
                                     >
                                 </li>
                                 <li class="mb-2 d-flex align-items-center">
@@ -132,8 +134,10 @@
         </div>
     </footer>
 </template>
-
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 <script>
+
 export default {
     name: "SiteFooter",
 };

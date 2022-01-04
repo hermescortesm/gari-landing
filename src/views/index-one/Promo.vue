@@ -5,12 +5,8 @@
                 <div class="col-lg-7 col-md-8">
                     <div class="section-heading text-center mb-5">
                         <h2>
-                            Why small business owners <br />love AppCo?
+                            ¿Por qué te conviene contratar Gari-ERT si eres conductor de Uber?
                         </h2>
-                        <p class="lead">
-                            Following reasons show advantages of adding AppCo to
-                            your lead pages, demos and checkouts
-                        </p>
                     </div>
                 </div>
             </div>
@@ -22,10 +18,9 @@
                         <div class="circle-icon mb-5">
                             <span class="ti-vector text-white"></span>
                         </div>
-                        <h5>Clean Design</h5>
+                        <h5>Cobertura amplia</h5>
                         <p>
-                            Increase sales by showing true dynamics of your
-                            website.
+                            Es un seguro con cobertura amplia con el que estarás cubierto cuando no tengas prendida el app
                         </p>
                     </div>
                 </div>
@@ -36,10 +31,10 @@
                         <div class="circle-icon mb-5">
                             <span class="ti-lock text-white"></span>
                         </div>
-                        <h5>Secure Data</h5>
+                        <h5>Precios increíbles</h5>
                         <p>
-                            Build your online store’s trust using Social Proof
-                            &amp; Urgency.
+                            Tenemos los mejores precios. Consideramos más datos que otras como tu score en la app, tiempo en la plataforma, etc con el fin de darte el precio que mereces
+
                         </p>
                     </div>
                 </div>
@@ -50,10 +45,9 @@
                         <div class="circle-icon mb-5">
                             <span class="ti-eye text-white"></span>
                         </div>
-                        <h5>Retina Ready</h5>
+                        <h5>La mejor atención de siniestros</h5>
                         <p>
-                            Realize importance of social proof in customer’s
-                            purchase decision.
+                            Tu seguro está respaldado por nuestro aliado Seguros El Águila, una de las mejores aseguradoras de México. 
                         </p>
                     </div>
                 </div>

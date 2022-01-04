@@ -4,10 +4,6 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-7">
                     <div class="about-content-left section-heading">
-                        <h2>
-                            Use your android or ios device <br />
-                            to manage everything
-                        </h2>
 
                         <div class="single-feature mb-4">
                             <div
@@ -21,10 +17,7 @@
                                     />
                                 </div>
                                 <p class="mb-0">
-                                    Proactively syndicate open-source e-markets
-                                    after low-risk high-yield synergy.
-                                    Professionally simplify visionary
-                                    technology.
+                                    Solo regístrate en Gari con tu cuenta de Uber o bien llena tu información manualmente y tendrás tu cotización en minutos
                                 </p>
                             </div>
                         </div>

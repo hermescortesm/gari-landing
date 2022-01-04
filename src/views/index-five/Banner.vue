@@ -28,7 +28,7 @@
                                 </p>
 
                                 <a href="#" class="btn google-play-btn"
-                                    >Contact with us</a
+                                    >¡Contáctanos!</a
                                 >
                             </div>
                         </div>

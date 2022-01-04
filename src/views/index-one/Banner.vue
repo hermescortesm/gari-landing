@@ -5,44 +5,20 @@
                 <div class="col-md-7 col-lg-6">
                     <div class="hero-content-left text-white">
                         <h1 class="text-white">
-                            <span>Brainstorming for desired perfect
-                            Usability</span>
+                            <span>Seguro enfocado a conductores de Uber</span>
                         </h1>
-                        <p class="lead">
-                            Our design projects are fresh and simple and will
-                            benefit your business greatly. Learn more about our
-                            work!
-                        </p>
+                        <h2 class="text-white">
+                            <span>Gari-ERT</span>
+                        </h2>
+                        <ul>
+                            <li>. Paga lo justo</li>
+                            <li>. Protección sin importar si estas en la plataforma o uso personal</li>
+                            <li>. Simple de comprar y usar</li>
+                        </ul>
 
-                        <form action="#" method="post" class="subscribe-form">
-                            <div class="d-flex align-items-center">
-                                <input
-                                    type="text"
-                                    class="form-control input"
-                                    id="email"
-                                    name="email"
-                                    placeholder="info@yourdomain.com"
-                                />
-                                <input
-                                    type="submit"
-                                    class="button btn solid-btn"
-                                    id="submit"
-                                    value="Subscribe"
-                                />
-                            </div>
-                        </form>
+                        
 
-                        <div
-                            class="video-promo-content py-4 d-flex align-items-center"
-                        >
-                            <a
-                                href="#"
-                                @click="showYouTubeModal"
-                                class="popup-youtube video-play-icon-without-bip video-play-icon mr-3"
-                                ><span class="ti-control-play"></span
-                            ></a>
-                            Watch Video Overview
-                        </div>
+                        
                     </div>
                 </div>
                 <div class=" site-form col-md-6 col-lg-6">
