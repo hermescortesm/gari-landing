@@ -5,21 +5,25 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "postinstall": "npm run build",
+    "start": "node server.js"
   },
   "engines": {
-    "node": "14.15.0"
+    "node": "16.13.0"
   },
   "dependencies": {
     "@chenfengyuan/vue-countdown": "^1.1.5",
     "animated-number-vue": "^1.0.0",
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "express": "^4.17.2",
     "gsap": "^3.5.1",
     "jquery": "^3.4.0",
     "jquery.mb.ytplayer": "^3.2.9",
     "register-service-worker": "^1.7.1",
     "sass": "^1.45.2",
+    "serve-static": "^1.14.2",
     "vue": "^2.6.11",
     "vue-owl-carousel": "^2.0.3",
     "vue-router": "^3.2.0",
