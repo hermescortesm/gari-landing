@@ -53,7 +53,7 @@
                         id="contactForm"
                         class="contact-us-form"
                     >
-                        <h5>Reach us quickly</h5>
+                        <h5>Comuníquese con nosotros rápidamente</h5>
                         <div class="row">
                             <div class="col-sm-6 col-12">
                                 <div class="form-group">
@@ -62,7 +62,7 @@
                                         class="form-control"
                                         name="name"
                                         v-model="name"
-                                        placeholder="Enter name"
+                                        placeholder="Ingrese su nombre"
                                         required="required"
                                     />
                                 </div>
@@ -74,7 +74,7 @@
                                         class="form-control"
                                         name="email"
                                         v-model="email"
-                                        placeholder="Enter email"
+                                        placeholder="Ingrese correo electrónico"
                                         required="required"
                                     />
                                 </div>
@@ -89,7 +89,7 @@
                                         value=""
                                         class="form-control"
                                         v-model="phone"
-                                        placeholder="Your Phone"
+                                        placeholder="Su teléfono"
                                         required="required"
                                     />
                                 </div>
@@ -103,7 +103,7 @@
                                         size="40"
                                         class="form-control"
                                         v-model="company"
-                                        placeholder="Your Company"
+                                        placeholder="Tu compañía"
                                         required="required"
                                     />
                                 </div>
@@ -118,7 +118,7 @@
                                         class="form-control"
                                         rows="7"
                                         cols="25"
-                                        placeholder="Message"
+                                        placeholder="Mensaje"
                                         required="required"
                                     ></textarea>
                                 </div>
@@ -132,7 +132,7 @@
                                     id="btnContactUs"
                                     style="pointer-events: all; cursor: pointer;color: white;"
                                 >
-                                    Send Message
+                                    Enviar mensaje
                                 </button>
                             </div>
                         </div>

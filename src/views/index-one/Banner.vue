@@ -1,5 +1,5 @@
 <template>
-    <section class="hero-section pt-100 background-img banner-1-bg">
+    <section class="hero-section pt-100 background-img banner-1-bg" id="inicio">
             
         <div class="container">
             <div class="row align-items-center justify-content-between py-5">

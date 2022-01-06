@@ -62,14 +62,14 @@
                         <div class="footer-nav-wrap text-white">
                             <h5 class="mb-3 text-white">Others Links</h5>
                             <ul class="list-unstyled">
-                                <li class="mb-2"><a href="#">About Us</a></li>
-                                <li class="mb-2"><a href="#">Contact Us</a></li>
-                                <li class="mb-2"><a href="#">Pricing</a></li>
+                                <li class="mb-2"><a href="#">Sobre nosotros</a></li>
+                                <li class="mb-2"><a href="#">Contacto</a></li>
+                                <li class="mb-2"><a href="#">Precios</a></li>
                                 <li class="mb-2">
-                                    <a href="#">Privacy Policy</a>
+                                    <a href="#">Política de privacidad</a>
                                 </li>
                                 <li class="mb-2">
-                                    <a href="#">Terms and Conditions</a>
+                                    <a href="#">Términos y condiciones</a>
                                 </li>
                             </ul>
                         </div>
@@ -99,10 +99,10 @@
 </a
                                     >
                                 </li>
-                                <li class="mb-2 d-flex align-items-center">
+                                <!-- <li class="mb-2 d-flex align-items-center">
                                     <span class="ti-world mr-2"></span
                                     ><a href="#"> www.yourdomain.com</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>
@@ -110,19 +110,18 @@
                 </div>
             </div>
         </div>
-
         <div class="footer-bottom gray-light-bg pt-4 pb-4">
             <div class="container">
                 <div class="row text-center justify-content-center">
                     <div class="col-md-6 col-lg-5">
                         <p class="copyright-text pb-0 mb-0">
-                            Copyrights © 2020 All rights reserved by
-                            <a href="#">ThemeTags</a>
+                            Derechos de autor © 2022 Todos los derechos reservados por
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+        
     </footer>
 </template>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
