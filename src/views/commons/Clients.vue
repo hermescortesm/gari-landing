@@ -16,25 +16,24 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-4">
+            <div class="row justify-content-end">
+                <div class="col-md-2">
                     <img
                         src="img/airbnb.png"
                         alt="client logo"
                         class="client-img"
-                        style="width: 50%;
-                            float: right;"
+                        style="width: 100%;padding-top: 22px;"
                     />
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                    <img
                         src="img/amazon.png"
                         alt="client logo"
                         class="client-img"
-                        style="width: 36%;"
+                        style="width: 100%;"                      
                     />
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <carousel
                         :items="1"
                         :nav="false"
@@ -236,6 +235,7 @@
                                     alt="client logo"
                                     height="200px"
                                     class="client-img"
+                                    style="width: 100%;height: 100%;"
                                 />
                             </p>
                         </details>
@@ -244,7 +244,7 @@
                             <a href="/preguntas-frecuentes" target="_self" class="btn btn-primary-outline rounded-pill" data-v-67d141ea="">
                                 <font style="vertical-align: inherit;">
                                     <font style="vertical-align: inherit;">
-                                        See all questions
+                                        Ver todas las preguntas
                                     </font>
                                 </font>
                             </a>
