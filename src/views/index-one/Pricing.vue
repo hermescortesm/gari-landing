@@ -24,9 +24,9 @@
                             <p>Seguro con el mejor precio</p>
                             <div class="pricing-img">
                                 <img 
-                                    src="https://drive.google.com/uc?export=view&id=1eP2otFawKkwbpEmSybpeKQwkfMa0LzRS"
+                                    src="https://drive.google.com/uc?export=view&id=177vwlgwy-IPZN61UNMPYGWGSpVdS0o56"
                                     width="120"
-                                    alt="asas"
+                                    alt="Purple Car"
                                     class="img-fluid"
                                 />
 
@@ -64,9 +64,9 @@
                             <div class="pt-4"><h5>Premium</h5></div>
                             <div class="pricing-img mt-4">
                                 <img 
-                                    src="https://drive.google.com/uc?export=view&id=1IrqwhcNwSfPWNMxGZgNtgvjmB31iDjBl"
+                                    src="https://drive.google.com/uc?export=view&id=1dQMiz_j96MwtWPVHh6WNBxUU7EzVbMaj"
                                     width="120"
-                                    alt="asas"
+                                    alt="Car Tire"
                                     class="img-fluid"
                                 />
                             </div>
