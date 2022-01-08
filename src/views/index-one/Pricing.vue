@@ -60,7 +60,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md">
-                        <div class="card text-center single-pricing-pack">
+                        <div
+                            class="card popular-price text-center single-pricing-pack"
+                        >
                             <div class="pt-4"><h5>Premium</h5></div>
                             <div class="pricing-img mt-4">
                                 <img 

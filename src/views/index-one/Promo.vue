@@ -16,7 +16,12 @@
                         class="single-promo single-promo-hover single-promo-1 rounded text-center white-bg p-5 h-100"
                     >
                         <div class="circle-icon mb-5">
-                            <span class="ti-vector text-white"></span>
+                            <img
+                                src="img/icons8-detail-64.png"
+                                alt="icon image"
+                                class="img-fluid"
+                                style="margin-left: 9%;"
+                            />
                         </div>
                         <h5>Cobertura amplia</h5>
                         <p>
@@ -29,7 +34,12 @@
                         class="single-promo single-promo-hover single-promo-1 rounded text-center white-bg p-5 h-100"
                     >
                         <div class="circle-icon mb-5">
-                            <span class="ti-lock text-white"></span>
+                            <img
+                                src="img/icons8-tags-64.png"
+                                alt="icon image"
+                                class="img-fluid"
+                                style="margin-left: 9%;"
+                            />
                         </div>
                         <h5>Precios increíbles</h5>
                         <p>
@@ -43,7 +53,12 @@
                         class="single-promo single-promo-hover single-promo-1 rounded text-center white-bg p-5 h-100"
                     >
                         <div class="circle-icon mb-5">
-                            <span class="ti-eye text-white"></span>
+                            <img
+                                src="img/icons8-services-64.png"
+                                alt="icon image"
+                                class="img-fluid"
+                                style="margin-left: 9%;"
+                            />
                         </div>
                         <h5>La mejor atención de siniestros</h5>
                         <p>

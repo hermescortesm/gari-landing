@@ -60,12 +60,6 @@
                         </li>
 
                         <li class="nav-item">
-                            <!-- <router-link
-                                class="nav-link page-scroll"
-                                to="#screenshots"
-                                v-scroll-to="'#screenshots'"
-                                >Preguntas</router-link
-                            > -->
                             <router-link to="#faqs" v-scroll-to="'#faqs'"
                                 >Preguntas</router-link
                             >

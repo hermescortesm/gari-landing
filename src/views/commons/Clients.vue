@@ -84,9 +84,6 @@
                     <div class="col-md-5 text-left" data-v-67d141ea="">
                         <div class="section-title" data-v-67d141ea="">
                             <font style="vertical-align: inherit;">
-                                <!-- <font >
-                                    Preguntas
-                                </font> -->
                                 <div class="section-heading mb-5">
                                     <h2> Preguntas </h2>
                                 </div>
@@ -141,113 +138,24 @@
                                 </font>
                             </p>
                         </details>
-                        <details class="collapse-item" data-v-67d141ea="">
-                            <summary class="title" data-v-67d141ea="">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        ¿Por qué el diseño de Gari-ERT tiene precios más bajos que los otros seguros para Uber?
-                                    </font>
-                                </font>
-                            </summary>
-                            <p class="description" data-v-67d141ea="">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        Lorem ipsum pain sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor et pain magna aliqua. 
-                                    </font>
-                                </font>
-                            </p>
-                        </details>
-                        <details class="collapse-item" data-v-67d141ea="">
-                            <summary class="title" data-v-67d141ea="">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        ¿Cómo funciona el seguro complementario de Gari-ERT en conjunto con el que ya te ofrece Uber?
-                                    </font>
-                                </font>
-                            </summary>
-                            <p class="description" data-v-67d141ea="">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        Lorem ipsum pain sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor et pain magna aliqua. 
-                                    </font>
-                                </font>
-                            </p>
-                        </details>
-                        <details class="collapse-item" data-v-67d141ea="">
-                            <summary class="title" data-v-67d141ea="">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        ¿Cual es el proceso para contratar Gari-ERT?
-                                    </font>
-                                </font>
-                            </summary>
-                            <p class="description" data-v-67d141ea="">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        Lorem ipsum pain sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor et pain magna aliqua. 
-                                    </font>
-                                </font>
-                            </p>
-                        </details>
-                        <details class="collapse-item" data-v-67d141ea="">
-                            <summary class="title" data-v-67d141ea="">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        ¿Qué opciones de pago tengo con Gari?
-                                    </font>
-                                </font>
-                            </summary>
-                            <p class="description" data-v-67d141ea="">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        Lorem ipsum pain sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor et pain magna aliqua. 
-                                    </font>
-                                </font>
-                            </p>
-                        </details>
-                        <details class="collapse-item" data-v-67d141ea="">
-                            <summary class="title" data-v-67d141ea="">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        ¿Qué hago en caso de tener un siniestro?
-                                    </font>
-                                </font>
-                            </summary>
-                            <p class="description" data-v-67d141ea="">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        Lorem ipsum pain sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor et pain magna aliqua. 
-                                    </font>
-                                </font>
-                            </p>
-                        </details>
-                        <details class="collapse-item" data-v-67d141ea="">
-                            <summary class="title" data-v-67d141ea="">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        ¿Cómo funciona el seguro complementario de Gari-ERT en conjunto con el que ya te ofrece Uber?
-                                    </font>
-                                </font>
-                            </summary>
-                            <p class="description" data-v-67d141ea="">
-                                <img
-                                    src="img/Capture.PNG"
-                                    alt="client logo"
-                                    height="200px"
-                                    class="client-img"
-                                    style="width: 100%;height: 100%;"
-                                />
-                            </p>
-                        </details>
                         
                         </div> 
-                            <a href="/preguntas-frecuentes" target="_self" class="btn btn-primary-outline rounded-pill" data-v-67d141ea="">
+                            <router-link :to="{name: 'Faq'}" target="_self" class="btn btn-primary-outline rounded-pill" data-v-67d141ea="">
                                 <font style="vertical-align: inherit;">
                                     <font style="vertical-align: inherit;">
                                         Ver todas las preguntas
+                                        
                                     </font>
                                 </font>
-                            </a>
+                            </router-link>
+                            <!-- <button @click="Faq()">asasd </button> -->
+                            <!-- <router-link :to="{ name: 'faq' }">User</router-link> -->
+                            <!-- <router-link :to="{name: 'Faq'}">
+                                <button class="foo bar">Go!</button>
+                            </router-link> -->
+                            <!-- <router-link :to="{name: 'Faq'}">
+                                <button id="myButton" class="foo bar">Go!</button>
+                            </router-link> -->
                         </div>
                     </div>
             </div>
@@ -257,7 +165,10 @@
 
     
 </template>
+<script>
+// import Faq from './Faq.vue'
 
+</script>
 <style scoped>
     .img-general-desk{
         display: inherit;

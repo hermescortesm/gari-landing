@@ -4,8 +4,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/.htaccess"
   },
   {
-    "revision": "ff2c175586e083b91b7d",
-    "url": "/css/app.4c151b1a.css"
+    "revision": "bb672efe560e22422d98",
+    "url": "/css/app.01860d42.css"
   },
   {
     "revision": "2689372f5975386fb3094f009c7db16f",
@@ -428,6 +428,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/humphrey-muleba-R8P8iZ9nRko-unsplash.jpg"
   },
   {
+    "revision": "19392de0ecd3f6786b4ba165747154a2",
+    "url": "/img/icons8-detail-64.png"
+  },
+  {
+    "revision": "d54cc611ef915f9836683ea739561763",
+    "url": "/img/icons8-detail-64.png:Zone.Identifier"
+  },
+  {
+    "revision": "cbab325943fbaca3e5de811496fe019d",
+    "url": "/img/icons8-services-64.png"
+  },
+  {
+    "revision": "edafab82787c0798c468228a79803693",
+    "url": "/img/icons8-services-64.png:Zone.Identifier"
+  },
+  {
+    "revision": "379f66439a38cd296485c7a8c2a10633",
+    "url": "/img/icons8-tags-64.png"
+  },
+  {
+    "revision": "7235fba2618e32127a8e3840e6dc91e4",
+    "url": "/img/icons8-tags-64.png:Zone.Identifier"
+  },
+  {
     "revision": "432a13401866fccdb1ec6d070a38e89f",
     "url": "/img/image-10.png"
   },
@@ -664,6 +688,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/wave-shap.svg"
   },
   {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/img/wave-shap.svg:Zone.Identifier"
+  },
+  {
     "revision": "1d22da659c06bc960f73fe6fab91c16a",
     "url": "/img/waves.svg"
   },
@@ -688,12 +716,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/why-kei-8e2gal_GIE8-unsplash.jpg"
   },
   {
-    "revision": "ea521c29781bc296b2e2f4f325e24c65",
+    "revision": "dc6688e26b22b84b7e28f4d9389f5dcd",
     "url": "/index.html"
   },
   {
-    "revision": "ff2c175586e083b91b7d",
-    "url": "/js/app.046f2768.js"
+    "revision": "bb672efe560e22422d98",
+    "url": "/js/app.cb0415bb.js"
   },
   {
     "revision": "464a89bef61c58a98795",

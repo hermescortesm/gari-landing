@@ -25,6 +25,7 @@ import TeamOne from '../pages/team/TeamOne.vue';
 import BlogGrid from '../pages/blogs/BlogGrid.vue';
 import BlogLeftSidebar from '../pages/blogs/BlogLeftSidebar.vue';
 import DetailsRightSidebar from '../pages/blogs/DetailsRightSidebar.vue';
+import Faq from '../pages/Faq';
 
 
 
@@ -164,10 +165,16 @@ const routes = [
     meta: { title: 'review -Appco -App Landing Page Template' }
   },
   {
-    path: '/faq',
+    path: '/faq2',
     name: 'faq',
     component: FaqPage,
     meta: { title: 'faq page -Appco -App Landing Page Template' }
+  },
+  {
+    path: '/faq',
+    name: 'Faq',
+    component: Faq,
+    meta: { title: 'FAQ' }
   },
   {
     path: '/404',

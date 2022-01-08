@@ -56,5 +56,12 @@ export default {
         // Subscribe,
         SiteFooter,
     },
+    mounted: function() {
+        if(this.$route.hash != ""){
+            document.getElementById(this.$route.hash.substring(1)).scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    }
 };
 </script>

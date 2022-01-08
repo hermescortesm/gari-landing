@@ -28,6 +28,7 @@
                                         src="img/uberlogo.png"
                                         alt="icon image"
                                         class="img-fluid"
+                                        style="margin-left: 9%;"
                                     />
                             </div>
                             <div class="col-sm-8">
@@ -40,7 +41,8 @@
                                           <label for="exampleInputPassword1">Contraseña</label>
                                           <input type="text" class="input_use"  placeholder="" v-model="driver_id">
                                     </div>
-                                    <button class="form-button" type="button" v-on:click="get_driver()">  <a href="#" type="button">Cotizer</a> </button>
+                                    <button class="btn-last" type="button" v-on:click="get_driver()" style="margin-left: 0%;font-family: 'Montserrat', sans-serif;">  <a href="#" type="button">Cotizer</a> </button>
+                                    
                                    
                                 </form>
                             </div>
@@ -56,7 +58,7 @@
                                       <div class="col-sm">
 
 
-                                    <label for="exampleInputPassword1">Afio</label>
+                                    <label for="exampleInputPassword1">Año</label>
                                     <input type="text" class="input_use"  placeholder="" size="" maxlength="5">
 
                                           
@@ -82,7 +84,7 @@
                              <div class="container secondory">
                                  <div class="row">
                                             <div class="col-sm">
-                                               <label for="exampleInputPassword1">Modelo</label>
+                                               <label for="exampleInputPassword1">Versión</label>
                                                <input type="text" class="input_use"  placeholder="" size="5" maxlength="15">
                                                   
                                             </div>
@@ -118,7 +120,7 @@
         </div>
         <div class="bottom-img-absolute">
             <img
-                src="img/hero-bg-shape-1.svg"
+                src="img/wave-shap.svg"
                 alt="wave shape"
                 class="img-fluid"
             />
